@@ -1,8 +1,11 @@
 public class demo {
     static boolean checknguyento(int number){
         boolean check = true;
-        if(number <= 2){
+        if(number <= 1){
             check = false;
+        }
+        else if (number<=3){
+            check = true;
         }
         else {
             for (int i = 2; i <= Math.sqrt(number); i++){
